@@ -1,7 +1,7 @@
 const request = require('supertest');
 const express = require('express');
 const bodyParser = require('body-parser');
-const router = require('./bookingRoute'); 
+const router = require('../src/route/flight'); 
 
 const app = express();
 app.use(bodyParser.json());
